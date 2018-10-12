@@ -1,0 +1,49 @@
+.experience {
+    padding: 0 15px 40px 15px;
+}
+
+.experience__title {
+    margin-top: 25px;
+    padding: 3px 20px;
+    background: #f3f3f3;
+}
+
+.experience__period-line {
+    margin-left: 15px;
+    padding-top: 30px;
+    padding-left: 15px;
+}
+
+.experience__period-line::before {
+    position: absolute;
+    left: 15px;
+    height: calc(100% - 135px);
+    width: 1px;
+    content: "";
+    background: #d1d1d1;
+    bottom: 0;
+}
+
+.experience__period-line li {
+    min-height: 175px;
+}
+
+.experience__period-line_first {
+    min-height: 200px !important;
+}
+
+.experience__period-line_last {
+    min-height: auto !important;
+}
+
+.experience__period-line li::before {
+    position: absolute;
+    left: 8px;
+    height: 16px;
+    width: 16px;
+    margin-top: 4px;
+    content: "";
+    border-radius: 50%;
+    background: #fff;
+    border: 2px solid #362cb2;
+}
