@@ -1,0 +1,16 @@
+.block-main {
+    height: 100%;
+    margin-left: 200px;
+}
+
+/*************** @media ***************/
+
+@media screen and (max-width: 767px) {
+    .block-main {
+        margin-left: 0;
+    }
+
+    .block-main.block-show {
+        margin-left: 150px;
+    }
+}

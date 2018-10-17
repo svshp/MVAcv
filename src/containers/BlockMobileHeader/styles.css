@@ -1,0 +1,31 @@
+.mobile-header {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 50px;
+    width: 100%;
+    z-index: 13;
+    padding: 0;
+    background:#3d33cc;
+    color: #fff;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+.mobile-header img {
+    margin-left: 15px;
+}
+
+.mobile-header h2 {
+    width: 100%;
+    margin: 0;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+    .mobile-header {
+        display: flex;
+    }
+}
