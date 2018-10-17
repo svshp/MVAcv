@@ -6,7 +6,7 @@
     justify-content: center;
 }
 
-.projects__list a {
+.projects__list_link {
     max-width: 250px;
     height: 190px;
     margin: 15px;
@@ -16,19 +16,19 @@
     overflow: hidden;
 }
 
-.projects__list a img {
+.projects__list_link img {
     width: 100%;
 }
 
-.projects__list a:hover .projects__list_curtain {
+.projects__list_link:hover .projects__list_curtain {
     width: 100%;
 }
 
-.projects__list  a:hover h2 {
+.projects__list_link:hover .projects__list_title {
     right: 15px;
 }
 
-.projects__list  a:hover span {
+.projects__list_link:hover .projects__list_info {
     right: 15px;
 }
 
@@ -41,18 +41,18 @@
     transition: all 1s;
 }
 
-.projects__list h2, span {
+.projects__list_title, .projects__list_info {
     position: absolute;
     right: -200px;
     color: #fff;
     transition: all 1s;
 }
 
-.projects__list h2 {
+.projects__list_title {
     bottom: 15px;
 }
 
-.projects__list span {
+.projects__list_info {
     bottom: 5px;
 }
 

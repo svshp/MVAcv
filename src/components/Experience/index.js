@@ -26,7 +26,7 @@ class Experience extends Component {
                                     <div className='experience__period-line_info'>
                                         <p>
                                             On the course "Full-stack Developer" studied:
-                                            HTM5L & CSS3, Javascript, ES6, jQuery, React/Redux, VueJS,
+                                            HTML5 & CSS3, JavaScript, ES6, jQuery, React/Redux, VueJS,
                                             Python, Django, PostgreSQL.
                                         </p>
                                     </div>
