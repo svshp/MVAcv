@@ -1,6 +1,6 @@
 {
   "name": "mva-cv",
-  "version": "0.2.0",
+  "version": "0.3.1",
   "private": true,
   "dependencies": {
     "react": "^16.5.2",
