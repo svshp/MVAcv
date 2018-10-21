@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import SectionTitle from '../SectionTitle';
+import animationSkills from './animation';
 
 import './styles.css';
 
@@ -22,73 +23,73 @@ class Abilities extends Component {
                             <div className='abilities__single-skill'>
                                 <div>
                                     <p>
-                                        HTML5 & CSS3
+                                        HTML5 & CSS3 -&nbsp;
                                     </p>
-                                    <span> - 85%</span>
+                                    <span>0%</span>
                                 </div>
                             </div>
                             <div className='abilities__single-skill_progress'>
-                                <div className='abilities__single-skill_progress-bar' style={{width:'85%'}}>
+                                <div className='abilities__single-skill_progress-bar' data-width='85'>
                                 </div>
                             </div>
                             <div className='abilities__single-skill'>
                                 <div>
                                     <p>
-                                        BOOTSTRAP
+                                        BOOTSTRAP -&nbsp;
                                     </p>
-                                    <span> - 55%</span>
+                                    <span>0%</span>
                                 </div>
                             </div>
                             <div className='abilities__single-skill_progress'>
-                                <div className='abilities__single-skill_progress-bar' style={{width:'55%'}}>
+                                <div className='abilities__single-skill_progress-bar' data-width='55'>
                                 </div>
                             </div>
                             <div className='abilities__single-skill'>
                                 <div>
                                     <p>
-                                        JAVASCRIPT
+                                        JAVASCRIPT -&nbsp;
                                     </p>
-                                    <span> - 75%</span>
+                                    <span>%</span>
                                 </div>
                             </div>
                             <div className='abilities__single-skill_progress'>
-                                <div className='abilities__single-skill_progress-bar' style={{width:'75%'}}>
+                                <div className='abilities__single-skill_progress-bar' data-width='75'>
                                 </div>
                             </div>
                             <div className='abilities__single-skill'>
                                 <div>
                                     <p>
-                                        ES6
+                                        ES6 -&nbsp;
                                     </p>
-                                    <span> - 75%</span>
+                                    <span>0%</span>
                                 </div>
                             </div>
                             <div className='abilities__single-skill_progress'>
-                                <div className='abilities__single-skill_progress-bar' style={{width:'75%'}}>
+                                <div className='abilities__single-skill_progress-bar' data-width='75'>
                                 </div>
                             </div>
                             <div className='abilities__single-skill'>
                                 <div>
                                     <p>
-                                        REACT
+                                        REACT -&nbsp;
                                     </p>
-                                    <span> - 70%</span>
+                                    <span>0%</span>
                                 </div>
                             </div>
                             <div className='abilities__single-skill_progress'>
-                                <div className='abilities__single-skill_progress-bar' style={{width:'70%'}}>
+                                <div className='abilities__single-skill_progress-bar' data-width='70'>
                                 </div>
                             </div>
                             <div className='abilities__single-skill'>
                                 <div>
                                     <p>
-                                        REDUX
+                                        REDUX -&nbsp;
                                     </p>
-                                    <span> - 70%</span>
+                                    <span>0%</span>
                                 </div>
                             </div>
                             <div className='abilities__single-skill_progress'>
-                                <div className='abilities__single-skill_progress-bar' style={{width:'70%'}}>
+                                <div className='abilities__single-skill_progress-bar' data-width='70'>
                                 </div>
                             </div>
                         </div>
@@ -96,73 +97,73 @@ class Abilities extends Component {
                             <div className='abilities__single-skill'>
                                 <div>
                                     <p>
-                                        OOP
+                                        OOP -&nbsp;
                                     </p>
-                                    <span> - 80%</span>
+                                    <span>0%</span>
                                 </div>
                             </div>
                             <div className='abilities__single-skill_progress'>
-                                <div className='abilities__single-skill_progress-bar' style={{width:'80%'}}>
+                                <div className='abilities__single-skill_progress-bar' data-width='80'>
                                 </div>
                             </div>
                             <div className='abilities__single-skill'>
                                 <div>
                                     <p>
-                                        GULP
+                                        GULP -&nbsp;
                                     </p>
-                                    <span> - 80%</span>
+                                    <span>0%</span>
                                 </div>
                             </div>
                             <div className='abilities__single-skill_progress'>
-                                <div className='abilities__single-skill_progress-bar' style={{width:'80%'}}>
+                                <div className='abilities__single-skill_progress-bar' data-width='80'>
                                 </div>
                             </div>
                             <div className='abilities__single-skill'>
                                 <div>
                                     <p>
-                                        SCSS
+                                        SCSS -&nbsp;
                                     </p>
-                                    <span> - 80%</span>
+                                    <span>0%</span>
                                 </div>
                             </div>
                             <div className='abilities__single-skill_progress'>
-                                <div className='abilities__single-skill_progress-bar' style={{width:'80%'}}>
+                                <div className='abilities__single-skill_progress-bar' data-width='80'>
                                 </div>
                             </div>
                             <div className='abilities__single-skill'>
                                 <div>
                                     <p>
-                                        NODE.JS
+                                        NODE.JS -&nbsp;
                                     </p>
-                                    <span> - 70%</span>
+                                    <span>0%</span>
                                 </div>
                             </div>
                             <div className='abilities__single-skill_progress'>
-                                <div className='abilities__single-skill_progress-bar' style={{width:'70%'}}>
+                                <div className='abilities__single-skill_progress-bar' data-width='70'>
                                 </div>
                             </div>
                             <div className='abilities__single-skill'>
                                 <div>
                                     <p>
-                                        AJAX
+                                        AJAX -&nbsp;
                                     </p>
-                                    <span> - 75%</span>
+                                    <span>0%</span>
                                 </div>
                             </div>
                             <div className='abilities__single-skill_progress'>
-                                <div className='abilities__single-skill_progress-bar' style={{width:'75%'}}>
+                                <div className='abilities__single-skill_progress-bar' data-width='75'>
                                 </div>
                             </div>
                             <div className='abilities__single-skill'>
                                 <div>
                                     <p>
-                                        MVC
+                                        MVC -&nbsp;
                                     </p>
-                                    <span> - 70%</span>
+                                    <span>0%</span>
                                 </div>
                             </div>
                             <div className='abilities__single-skill_progress'>
-                                <div className='abilities__single-skill_progress-bar' style={{width:'70%'}}>
+                                <div className='abilities__single-skill_progress-bar' data-width='70'>
                                 </div>
                             </div>
                         </div>
@@ -213,6 +214,10 @@ class Abilities extends Component {
                 </div>
             </div>
         )
+    }
+
+    componentDidMount() {
+        animationSkills();
     }
 }
 
