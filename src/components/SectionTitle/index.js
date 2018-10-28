@@ -7,9 +7,12 @@ class SectionTitle extends Component {
         return (
             <div className='row'>
                 <div className='col-md-12'>
-                    <div className='section-title'>
-                        <h2>{this.props.sectionName}</h2>
-                    </div>
+                        <div className='section-title'>
+                            <h2>{
+                                this.props.noTitle ? '' :
+                                    this.props.sectionName
+                                }</h2>
+                        </div>
                 </div>
             </div>
         )

@@ -1,3 +1,7 @@
+.projects {
+    padding-bottom: 50px;
+}
+
 .projects__list {
     padding: 0 10px 10px 10px;
 }
@@ -9,6 +13,16 @@
 .projects__list_link {
     max-width: 250px;
     height: 190px;
+    margin: 15px;
+    padding: 0;
+    box-shadow: -1px 2px 23px 2px #e6e6e6;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+.projects__list_link[data-info^='test'] {
+    max-width: 250px;
+    height: 100px;
     margin: 15px;
     padding: 0;
     box-shadow: -1px 2px 23px 2px #e6e6e6;

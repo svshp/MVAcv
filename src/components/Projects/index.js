@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import SectionTitle from '../SectionTitle';
 import ArrayProjects from '../ArrayProjects';
+import ArrayTests from '../ArrayTests';
 
 import './styles.css';
 
@@ -21,7 +22,18 @@ class Projects extends Component {
                                         </a> : ''
                         ))}
                     </div>
-                    {/* <div className='row offset-8 offset-md-9 offset-xl-10 projects__link-btn'> */}
+                    <SectionTitle sectionName={'MY TESTS'} />
+                    <div className='projects__list row'>
+                        {ArrayTests.map((item) => (
+                            item.show ? <a className='projects__list_link col-12 col-sm-6 col-lg-4 col-xl-3' key={item.link} href={item.link} target='_blank' rel='noopener noreferrer' data-info='test'>
+                                            <div className='projects__list_curtain'></div>
+                                            <img src={item.picture} alt=''/>
+                                            <h2 className='projects__list_title'>{item.title}</h2>
+                                            <span className='projects__list_info'>{item.info}</span>
+                                        </a> : ''
+                        ))}
+                    </div>
+                    <SectionTitle sectionName={''} noTitle={true} />
                     <div className='row projects__link-btn'>
                         <a href='https://github.com/svshp' target='_blank' rel='noopener noreferrer'>MY GIT</a>
                     </div>
