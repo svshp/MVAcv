@@ -8,7 +8,7 @@
 
 .about-me__info {
     overflow: hidden;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
     border-bottom: 1px solid #e1e1e1;
 }
 
@@ -24,7 +24,24 @@
 }
 
 .about-me__content {
-    padding-top: 35px;
+    padding-top: 20px;
+}
+
+.about-me__link-btn {
+    height: 40px;
+    margin-top: 5px;
+    justify-content: center;
+
+}
+
+.about-me__link-btn a {
+    width: 250px;
+    border: 2px solid #35373e;
+    border-radius: 5px;
+    color: #35373e;
+    line-height: 37px;
+    text-decoration: none;
+    text-align: center;
 }
 
 ul {

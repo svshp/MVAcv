@@ -75,6 +75,10 @@ class AboutMe extends Component {
                             </div>
                         </div>
                     </div>
+                    <SectionTitle sectionName={''} noTitle={true} />
+                    <div className='row about-me__link-btn'>
+                        <a href='http://maliugin.com.ua/cv_VladimirMaliugin_Frontend.pdf' target='_blank' rel='noopener noreferrer'>DOWNLOAD RESUME</a>
+                    </div>
                 </div>
             </div>
         )

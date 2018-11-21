@@ -41,7 +41,7 @@ class Abilities extends Component {
                                 </div>
                             </div>
                             <div className='abilities__single-skill_progress'>
-                                <div className='abilities__single-skill_progress-bar' data-width='55'>
+                                <div className='abilities__single-skill_progress-bar' data-width='60'>
                                 </div>
                             </div>
                             <div className='abilities__single-skill'>
